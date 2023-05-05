@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.logoInicio{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.sectionInicio{
+    gap: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+}
+
+button{
+    margin: 16px;
+    transition: all 0.4s linear;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    color: white;
+    padding: 10px 20px;
+    background: linear-gradient(233.24deg, #3F42F2 -36.34%, #BD00FF 82.07%);
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.menu{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu > p{
+    cursor: pointer;
+}
+
+.gap{
+    gap: 10px;
+}
+
+.sectionSegundo{
+    gap: 90px;
+    /* padding-left: 33%; */
+    padding-right: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+}
+
+
+.FormularioPronto{
+    margin-top: 35px;
+    border-radius: 35px;
+    gap: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    background: radial-gradient(87.32% 87.32% at 82.28% 17.29%, #BD00FF 0%, #3F42F2 58.33%, #2225B3 100%)
+}
+
+.FormularioPronto > h1 , span{
+    color: white;
+}
+
+input{
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    padding: 20px 35px;
+}
+
+.bola{
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    position: absolute;
+    left: -300px;
+    right: 0;
+    top: 500px;
+    bottom: 0;
+    z-index: -1;
+    background: radial-gradient(87.32% 87.32% at 82.28% 17.29%, #BD00FF 0%, #3F42F2 58.33%, #2225B3 100%)
+}
+
+.bola2{
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1580px;
+    right: 0;
+    top: -400px;
+    bottom: 700px;
+    z-index: -1;
+    background: radial-gradient(147% 146.79% at -28.32% 105.03%, #BD00FF 0%, #3F42F2 58.33%, #2225B3 100%)
+}
+
+button:hover{
+    scale: 1.2;
+}
+
